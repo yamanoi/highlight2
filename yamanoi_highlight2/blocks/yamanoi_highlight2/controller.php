@@ -16,11 +16,11 @@
 		 'powershell' => 'shBrushPowerShell.js');
 
 		public function getBlockTypeDescription() {
-			return "A Highlight block for software developers.";
+			return t("A Highlight block for software developers.");
 		}
 	
 		public function getBlockTypeName() {
-			return "Yamanoi Highlight2";
+			return t("Yamanoi Highlight2");
 		}
 
 		public function on_page_view() {
@@ -50,7 +50,7 @@
 				if( !empty($sc))
 					print $html->javascript('yamanoi_highlight2/'.$sc,$this->pkgHandle);
 				else
-					print '<p style="color:#900">Error: '.$this->code.' is Not Found.</p>';
+					print '<p style="color:#900">'.t('Error: %s is Not Found.',$this->code).'</p>';
 				}
 		}
 	}

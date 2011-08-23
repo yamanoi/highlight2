@@ -1,0 +1,55 @@
+# Japanese translations for PACKAGE package.
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <yamanoi@tsukuba-g.ac.jp>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: yamanoi_highlight2 2.0\n"
+"Report-Msgid-Bugs-To: Kazuo Yamanoi <yamanoi@tsukuba-g.ac.jp>\n"
+"POT-Creation-Date: 2011-08-23 17:52+0900\n"
+"PO-Revision-Date: 2011-08-23 17:52+0900\n"
+"Last-Translator:  <yamanoi@tsukuba-g.ac.jp>\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/controller.php:19
+#: yamanoi_highlight2/controller.php:8
+msgid "A Highlight block for software developers."
+msgstr "ソースコードをハイライト表示します。"
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/controller.php:23
+msgid "Yamanoi Highlight2"
+msgstr "ハイライト表示"
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/controller.php:53
+#, php-format
+msgid "Error: %s is Not Found."
+msgstr "エラー: %s がありません"
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/add.php:1
+msgid "Access Denied."
+msgstr ""
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/edit.php:1
+msgid "Program language"
+msgstr "プログラミング言語"
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/edit.php:27
+msgid "Filename"
+msgstr "ファイル名"
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/edit.php:30
+msgid "html"
+msgstr ""
+
+#: yamanoi_highlight2/blocks/yamanoi_highlight2/edit.php:32
+msgid "Source code"
+msgstr "ソースコード"
+
+#: yamanoi_highlight2/controller.php:12
+msgid "Syntax Highlighter2"
+msgstr "ハイライト表示"
